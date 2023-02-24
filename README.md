@@ -16,26 +16,26 @@ By understanding the words involved in the tweet, we are going to predict whethe
 2. Initial review of the data and checked the provided data set for any missing values.
 3. Preformed Preprocessing of text which involved :
 
-~ Removing emoji
+~ Removing emoji  
 ~ Converting text to lowercase, removing (/r, /n characters), URLs,
-non-utf characters, Numbers, punctuations, stopwords
+non-utf characters, Numbers, punctuations, stopwords  
 ~ Removing Contractions  
 ~ Cleaning Hashtags  
-~ Filter Special characters
-~ Removing Multi-space characters
-~ Stemming
-~ Lemmatization
+~ Filter Special characters  
+~ Removing Multi-space characters  
+~ Stemming  
+~ Lemmatization  
 4. Handling Duplicates and removing them
 5. Performed Exploratory Data Analysis
 6. Train and test split
 7. tf-idf Vectorization
 8. Trying different base models :-
-~ Logistic Regression
-~ Support Vector Classifier
-~ Naive Bayes Classifier
-~ Decision Tree Classifier
-~ Random Forest Classifier
-~ Ada Boost Classifier
+~ Logistic Regression  
+~ Support Vector Classifier  
+~ Naive Bayes Classifier  
+~ Decision Tree Classifier  
+~ Random Forest Classifier  
+~ Ada Boost Classifier  
 9. Fine Tuning Support Vector Classifier
 10. Model Evaluation and Saving the model
 11. Created the Web App using Streamlit
