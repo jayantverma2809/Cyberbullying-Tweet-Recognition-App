@@ -13,6 +13,7 @@ import pickle
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('punkt')
+nltk.download('omw-1.4')
 
 # Page title
 st.set_page_config(page_title="Jayant Verma", page_icon=Image.open('statics/me.png'))
