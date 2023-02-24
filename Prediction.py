@@ -9,6 +9,8 @@ from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 import pickle
 
+nltk.download('stopwords')
+
 def strip_emoji(text):
     return emoji.replace_emoji(text,replace="")
 
