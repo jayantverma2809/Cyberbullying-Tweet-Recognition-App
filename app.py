@@ -10,6 +10,8 @@ from nltk import PorterStemmer, WordNetLemmatizer
 from Prediction import *
 import pickle
 
+nltk.download('stopwords')
+
 # Page title
 st.set_page_config(page_title="Jayant Verma", page_icon=Image.open('statics/me.png'))
 
