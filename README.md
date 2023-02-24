@@ -1,6 +1,8 @@
 # Cyberbullying-Tweet-Recognition-App https://lnkd.in/d_beCUvK
 
-This project involved analyzing tweets. By understanding the words involved in the tweet, we are going to predict whether a tweet is a cyberbullying tweet or not and if it is a cyberbullying tweet then predicting nature of the cyberbullying into 6 Categories:
+This project involved analyzing tweets. 
+
+By understanding the words involved in the tweet, we are going to predict whether a tweet is a cyberbullying tweet or not and if it is a cyberbullying tweet then predicting nature of the cyberbullying into 6 Categories:
 * Age
 * Ethnicity
 * Gender
