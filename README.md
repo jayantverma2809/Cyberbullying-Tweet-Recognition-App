@@ -25,10 +25,11 @@ non-utf characters, Numbers, punctuations, stopwords
 ~ Removing Multi-space characters  
 ~ Stemming  
 ~ Lemmatization  
-4. Handling Duplicates and removing them
-5. Performed Exploratory Data Analysis
-6. Train and test split
-7. tf-idf Vectorization
+
+4. Handling Duplicates and removing them  
+5. Performed Exploratory Data Analysis  
+6. Train and test split  
+7. tf-idf Vectorization  
 8. Trying different base models :-
 ~ Logistic Regression  
 ~ Support Vector Classifier  
@@ -36,10 +37,10 @@ non-utf characters, Numbers, punctuations, stopwords
 ~ Decision Tree Classifier  
 ~ Random Forest Classifier  
 ~ Ada Boost Classifier  
-9. Fine Tuning Support Vector Classifier
-10. Model Evaluation and Saving the model
-11. Created the Web App using Streamlit
-12. Deployed Web App on Streamlit
+9. Fine Tuning Support Vector Classifier  
+10. Model Evaluation and Saving the model  
+11. Created the Web App using Streamlit  
+12. Deployed Web App on Streamlit  
 
 * Libraries Used : pandas, numpy, matplotlib, seaborn, stats, scipy, re, pickle, string, image, collections, statsmodel, flask, nltk, emoji, wordcloud, streamlit
 
