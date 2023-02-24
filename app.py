@@ -54,6 +54,8 @@ st.sidebar.subheader("[EDA & Feature Engineering - Wine Quality Data](https://ln
 st.sidebar.write("Under this data preprocessing project, I have performed exploratory data analysis and various feature engineering techniques such as transformations, handling outliers, standardization to convert raw data into model training ready data.")
 
 # Main Page Starts Here !
+st.caption('Check the left side bar also  **">"** ')
+
 st.write('''
 # Cyberbullying Tweet Recognition App
 
