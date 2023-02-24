@@ -31,6 +31,7 @@ st.sidebar.subheader("[LinkedIn](https://www.linkedin.com/in/jayantverma28)")
 
 # GitHub
 st.sidebar.subheader("[GitHub](https://github.com/jayantverma2809)")
+st.sidebar.subheader("[Kaggle](https://www.kaggle.com/jayantverma9380)")
 
 #Skills
 st.sidebar.header("Skills")
