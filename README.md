@@ -15,7 +15,7 @@ By understanding the words involved in the tweet, we are going to predict whethe
 1. Installing the required libraries and importing the data set using pandas was the first step.
 2. Initial review of the data and checked the provided data set for any missing values.
 3. Preformed Preprocessing of text which involved :
-- Removing emoji
+~ Removing emoji
 - Converting text to lowercase, removing (/r, /n characters), URLs,
 non-utf characters, Numbers, punctuations, stopwords
 - Removing Contractions
