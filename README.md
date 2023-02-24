@@ -19,8 +19,8 @@ By understanding the words involved in the tweet, we are going to predict whethe
 ~ Removing emoji
 ~ Converting text to lowercase, removing (/r, /n characters), URLs,
 non-utf characters, Numbers, punctuations, stopwords
-~ Removing Contractions
-~ Cleaning Hashtags
+~ Removing Contractions  
+~ Cleaning Hashtags  
 ~ Filter Special characters
 ~ Removing Multi-space characters
 ~ Stemming
