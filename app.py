@@ -11,6 +11,8 @@ from Prediction import *
 import pickle
 
 nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('punkt')
 
 # Page title
 st.set_page_config(page_title="Jayant Verma", page_icon=Image.open('statics/me.png'))
