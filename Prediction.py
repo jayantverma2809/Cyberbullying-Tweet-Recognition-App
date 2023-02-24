@@ -12,6 +12,7 @@ import pickle
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('punkt')
+nltk.download('omw-1.4')
 
 def strip_emoji(text):
     return emoji.replace_emoji(text,replace="")
