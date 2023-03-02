@@ -16,7 +16,7 @@ nltk.download('punkt')
 nltk.download('omw-1.4')
 
 # Page title
-st.set_page_config(page_title="Jayant Verma", page_icon=Image.open('statics/me.png'))
+st.set_page_config(page_title="Jayant Verma", page_icon=Image.open('statics/me.png'),initial_sidebar_state="expanded")
 
 # Add profile image
 profile_image = Image.open("statics/me.png")
@@ -28,8 +28,6 @@ st.sidebar.write("Data Scientist")
 st.sidebar.write("You can reach me at:")
 st.sidebar.subheader("jayantverma9380@gmail.com")
 st.sidebar.subheader("[LinkedIn](https://www.linkedin.com/in/jayantverma28)")
-
-# GitHub
 st.sidebar.subheader("[GitHub](https://github.com/jayantverma2809)")
 st.sidebar.subheader("[Kaggle](https://www.kaggle.com/jayantverma9380)")
 
@@ -39,8 +37,8 @@ st.sidebar.write("Here are some of my top skills:")
 st.sidebar.write("- Python programming")
 st.sidebar.write("- SQL")
 st.sidebar.write("- Data analysis and visualization")
+st.sidebar.write("- Feature Engineering & Feature Selection")
 st.sidebar.write("- Machine learning")
-st.sidebar.write("- NLP")
 
 #Projects
 st.sidebar.title("Other Projects")
@@ -48,14 +46,15 @@ st.sidebar.write("Here are some of my projects:")
 st.sidebar.header("Machine Learning Projects")
 st.sidebar.subheader("[Used Phone Price Prediction](https://usedphonepriceprediction.azurewebsites.net/)")
 st.sidebar.write("Description: Using unsupervised learning techniques to predict prices of used phones using their various features such as days used, camera, battery,etc.")
+st.sidebar.header("Analysis Projects")
+st.sidebar.subheader("[Stock Analysis Project]()")
+st.sidebar.write("Description: Under this analysis project, the app does fundamental and technical analysis on the stock provided as input and provides various helpful insights which help investors to take better decisions")
 st.sidebar.header("Data Preprocessing Projects")
 st.sidebar.subheader("[EDA & Feature Engineering - Bike Sharing Data](https://lnkd.in/dzjAsajs)")
 st.sidebar.write("Description: Under this data preprocessing project, I have performed time series analysis, exploratory data analysis and various feature engineering techniques such as transformations, handling outliers, etc to convert raw data into model training ready data.")
 st.sidebar.subheader("[EDA & Feature Engineering - Wine Quality Data](https://lnkd.in/dKRMT7Ym)")
 st.sidebar.write("Under this data preprocessing project, I have performed exploratory data analysis and various feature engineering techniques such as transformations, handling outliers, standardization to convert raw data into model training ready data.")
 
-# Main Page Starts Here !
-st.caption('Check the left side bar also  **">"** ')
 
 st.write('''
 # Cyberbullying Tweet Recognition App
