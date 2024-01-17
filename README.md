@@ -1,4 +1,4 @@
-# Cyberbullying-Tweet-Recognition-App https://lnkd.in/d_beCUvK](https://cyberbullying-tweet-recognition-jayant-verma.streamlit.app/
+# Cyberbullying-Tweet-Recognition-App https://cyberbullying-tweet-recognition-jayant-verma.streamlit.app/
 
 This project involved analyzing tweets. 
 
